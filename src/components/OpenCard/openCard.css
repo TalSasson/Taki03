@@ -1,0 +1,6 @@
+@media only screen and (max-width: 520px){
+    .openCards{
+        transition: 1s ease;
+        max-width: 40px;
+    }
+}

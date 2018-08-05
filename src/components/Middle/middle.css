@@ -1,0 +1,58 @@
+
+.middleWrapper{
+   display: flex;
+   justify-content: space-around;
+   padding: 60px 0;
+   margin: 15px 0;
+}
+
+.openChatWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    transition-duration: 0.5s;
+    margin: 0 0 0 10px;
+}
+
+.openChatBtn{
+    box-sizing: border-box;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+    background: cornsilk;
+    cursor: pointer;
+    border: 1px solid black;
+    transition-duration: 0.5s;
+}
+
+.statisticsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 340px;
+    box-sizing: border-box;
+}
+
+.openChatBtn:hover{
+    transform: scale(0.8);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.disabled{
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 520px){
+    .openChatBtn{
+        transition: 1s ease;
+        font-size: 12px;
+    }
+}
+
+
+

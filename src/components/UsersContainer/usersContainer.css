@@ -1,0 +1,13 @@
+.userList{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border:  2px solid white;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+.titleUserList{
+    color: teal;
+    font-weight: bolder;
+}

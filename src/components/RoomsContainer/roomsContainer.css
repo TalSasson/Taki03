@@ -1,0 +1,13 @@
+.roomsList{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1070px){
+    .roomsList{
+        flex-wrap: wrap;
+    }
+}

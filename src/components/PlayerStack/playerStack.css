@@ -1,0 +1,81 @@
+.player{    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.nameOfPlayer{
+    position: absolute;
+    z-index: 1000;
+    font-weight: bold;
+    border: 1px solid black;
+    background: rgba(253, 250, 250, 0.50);
+    border-radius: 5px;
+    padding: 0 3px;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.currPlayer{
+    margin-bottom: 0;
+    bottom: 0;
+    width: 80%;
+}
+
+.stackWrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.currPlayer .nameOfPlayer{
+    top: -30px;
+    margin-top: 0;
+}
+
+
+.currPlayer .card:hover{
+    z-index:100;
+    bottom: 22px;
+    transform: scale(1.2, 1.2);
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.arrowImage{
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 37%;
+}
+
+.btnBTLWrapper{
+    text-align: center;
+    font-size: 15px;
+    transition-duration: 0.5s;
+}
+
+.btnBTLWrapper:hover{
+    transform: scale(0.8);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+.btnBTLWrapper div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    box-sizing: border;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: whitesmoke;
+    min-width: 100px;
+    cursor: pointer;
+}

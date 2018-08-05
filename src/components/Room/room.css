@@ -1,0 +1,8 @@
+.roomInfo{
+    margin: 5px;
+    padding: 5px;
+}
+
+[class *= "_"]{
+    padding: 10px;
+}
